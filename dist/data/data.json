@@ -1,0 +1,154 @@
+
+{
+    "hero": {
+        "name": "Rizki Makhfud Nur'atsani",
+        "role": "Full Stack Web Developer",
+        "description": "Lulusan D4 Teknik Informatika yang memiliki minat dalam pengembangan aplikasi web, baik dari sisi frontend maupun backend. Memiliki pengalaman dalam membangun aplikasi web, mengembangkan antarmuka pengguna, serta mengelola basis data. Senang mempelajari teknologi baru dan menciptakan solusi digital yang bermanfaat.",
+        "email": "rizkimakhfudn@gmail.com",
+        "mobile": "085850905620",
+        "linkedin": "https://www.linkedin.com/in/rizki-makhfud-nur-atsani-2603042b5/",
+        "github": "https://github.com/rizki2232",
+        "resume": "https://drive.google.com/drive/folders/1ufSKVj3r19eNaOHVVxrPB53Yss_FMYGD?usp=drive_link"
+    },
+    "education": [
+        {
+            "date": "2022 - 2026",
+            "title": "D4 Teknik Informatika",
+            "description": "Politeknik Negeri Jember - PSDKU Sidoarjo"
+        },
+        {
+            "date": "2018 - 2021",
+            "title": "Teknik Instalasi Permesinan Kapal",
+            "description": "SMK Negeri 2 Buduran Sidoarjo"
+        }
+    ],
+    "interests": [
+        "Pengembangan Web",
+        "Full Stack Development",
+        "Rekayasa Perangkat Lunak",
+        "Pengembangan Frontend",
+        "Pengembangan Backend",
+        "Manajemen Basis Data",
+        "UI/UX Development"
+    ],
+    "hobbies": [
+        "Mempelajari Teknologi Baru",
+        "Pemrograman",
+        "Eksplorasi Pengembangan Web",
+        "Mengembangkan Proyek Pribadi"
+    ],
+    "skills": {
+        "programming_languages": [
+            "JavaScript",
+            "PHP",
+            "Python",
+            "Java"
+        ],
+        "databases": [
+            "MySQL",
+            "PostgreSQL"
+        ],
+        "web_technologies": [
+            "HTML",
+            "CSS",
+            "JavaScript",
+            "Vue.js",
+            "React.js",
+            "Node.js"
+        ],
+        "frameworks": [
+            "Laravel",
+            "Express.js",
+            "Bootstrap",
+            "Vuetify"
+        ],
+        "tools": [
+            "Git",
+            "GitHub",
+            "Visual Studio Code",
+            "Postman",
+            "DBeaver",
+            "XAMPP"
+        ],
+        "cloud": [
+            "Vercel",
+            "Netlify"
+        ]
+    },
+    "projects": [
+        {
+            "title": "JAPFA Security System - KIM & KIK",
+            "description": "Berkontribusi dalam pengembangan sistem digitalisasi pengelolaan perizinan akses keamanan selama menjalani program magang di PT JAPFA Tbk. Mengembangkan fitur Person Modal dan Upload Person Modal untuk mendukung pengelolaan data individu dan pengunjung.",
+            "technologies": [
+                "JavaScript",
+                "Node.js",
+                "Vue.js",
+                "Vuetify"
+            ],
+            "link": "",
+            "image": "/images/japfa.png"
+        },
+        {
+            "title": "Website Manajemen Inventaris Kendaraan",
+            "description": "Mengembangkan website manajemen inventaris untuk PT ACS yang digunakan untuk mengelola data kendaraan, termasuk jumlah kendaraan dan jenis kendaraan, guna mendukung proses pengelolaan inventaris secara digital.",
+            "technologies": [
+                "JavaScript",
+                "Node.js",
+                "PostgreSQL"
+            ],
+            "link": "https://github.com/rizki2232/acss.git",
+             "image": "/images/acss.png"
+        },
+        {
+            "title": "rekomendasi Pariwisata Di Surabaya",
+            "description": "Mengembangkan website untuk Surabaya sebagai rekomendasi wisata di surabya",
+            "technologies": [
+                "Laravel",
+                "Vuetify",
+                "MySQL"
+            ],
+            "link": "https://github.com/rizki2232/recowis.git",
+            "image": "/images/recowis.png"
+        },
+        {
+            "title": "Sistem Absensi Pengenalan Wajah",
+            "description": "Mengembangkan sistem absensi berbasis pengenalan wajah dengan memanfaatkan teknologi deteksi wajah dan metode Convolutional Neural Network (CNN). Sistem ini mengintegrasikan Laravel, Python, dan MySQL untuk mendukung proses pengenalan wajah serta pengelolaan data absensi.",
+            "technologies": [
+                "Laravel",
+                "Tailwind CSS",
+                "MySQL",
+                "Python"
+            ],
+            "link": "https://github.com/rizki2232/facerecogeneration.git",
+            "image": "/images/facerecognition.png"
+        },
+        {
+            "title": "Aplikasi Desktop Pemesanan Tembakau",
+            "description": "Mengembangkan aplikasi desktop untuk mengelola proses pemesanan tembakau yang terintegrasi dengan basis data MySQL guna menyimpan dan mengelola informasi pemesanan.",
+            "technologies": [
+                "Java",
+                "MySQL",
+                "XAMPP"
+            ],
+            "link": "",
+            "image": "/images/tobacco.png"
+        }
+    ],
+    "certifications": [
+        {
+            "certificate": "Sertifikasi Pengembang Web",
+            "from": "BNSP",
+            "link": "https://drive.google.com/drive/folders/1NwB7oaVAMi_QGfuRBKBkSghdjo2T9bIv?usp=drive_link"
+        },
+        {
+            "certificate": "Sertifikat EPT",
+            "from": "Politeknik Negeri Jember",
+            "link": "https://drive.google.com/drive/folders/1NwB7oaVAMi_QGfuRBKBkSghdjo2T9bIv?usp=drive_link"
+        },
+        {
+            "certificate": "Pengembangan Web Dasar",
+            "from": "Dicoding",
+            "link": "https://www.dicoding.com/certificates/4EXG5N0J1XRL"
+        }
+    ]
+}

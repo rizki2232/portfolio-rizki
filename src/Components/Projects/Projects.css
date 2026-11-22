@@ -1,0 +1,42 @@
+
+.projects {
+    height: fit-content;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-sizing: border-box;
+}
+
+.projects-description {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 25px;
+    width: 100%;
+    max-width: 850px;
+    margin-top: 20px;
+    align-items: stretch;
+    box-sizing: border-box;
+}
+
+/* Tampilan Tablet */
+@media screen and (max-width: 768px) {
+    .projects h1 {
+        font-size: 2rem;
+        padding: 20px;
+    }
+
+    .projects-description {
+        gap: 15px;
+    }
+}
+
+/* Tampilan HP */
+@media screen and (max-width: 550px) {
+    .projects-description {
+        grid-template-columns: 1fr;
+        max-width: 400px;
+        gap: 20px;
+    }
+}
