@@ -9,7 +9,7 @@ export const useData = () => {
         const fetchData = async () => {
             try {
                 // Always use the base path from vite config
-                const response = await fetch('/edgefolio/data.json');
+                const response = await fetch(`${import.meta.env.BASE_URL}data.json`);
                 if (!response.ok) throw new Error(`Failed to fetch data: ${response.status}`);
                 const jsonData = await response.json();
                 setData(jsonData);
