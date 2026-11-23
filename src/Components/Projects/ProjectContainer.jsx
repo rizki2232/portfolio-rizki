@@ -6,7 +6,7 @@ import Pill from '../Pill/Pill'
 
 function ProjectContainer({ project }) {
   console.log("DATA PROJECT:", project)
-  const imageUrl = `${import.meta.env.BASE_URL}${project.image}`
+  const imageUrl = `/${project.image.replace(/^\/+/, '')}`
    
 
   return (
@@ -15,7 +15,7 @@ function ProjectContainer({ project }) {
         <img
           src={imageUrl}
           alt={project.title}
-          onError={(e) => {
+          onError={() => {
             console.error('Gambar gagal dimuat:', imageUrl)
           }}
         />
