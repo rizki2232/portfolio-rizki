@@ -6,7 +6,7 @@ import Pill from '../Pill/Pill'
 
 function ProjectContainer({ project }) {
   console.log("DATA PROJECT:", project)
-  const imageUrl = `/${project.image.replace(/^\/+/, '')}`
+  const imageUrl = `${import.meta.env.BASE_URL}${project.image.replace(/^\/+/, '')}`
    
 
   return (
